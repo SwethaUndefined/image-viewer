@@ -1,0 +1,44 @@
+.selector-container{
+    height: 30vh;
+    border: 3px solid #aaa;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    transition: all 0.5s;
+    outline-color:darkorange;
+}
+.selector-img{
+    width: 250px;
+    height: 150px;
+    margin-right: 20px;
+    opacity: 0.7;
+}
+.toggle-btn{
+    padding: 6px 10px 3px 10px;
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    border-radius: 20px;
+    top : 20px;
+    left: 20px;
+    z-index: 100;
+    font-weight: 1800;
+    font-size: 34px;
+    color: white;
+}
+
+.inactive{
+   height: 0;
+}
+.increase-opacity{
+    opacity: 1;
+    border: 3px solid orange;
+}
+.rotateDown{
+    transform: rotate(-180deg);
+    transition: all 0.7s;
+}
+.rotateUp{
+    transform: rotate(-360deg);
+    transition: all 0.7s;
+}

@@ -1,0 +1,25 @@
+.viewer-container{
+    height: 70vh;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+    transition: all 0.5s;
+    background-color: black;
+}
+.view-img{
+    height: 80%;
+    width: 50%;
+}
+
+.active{
+    height: 99vh;
+}
+
+@media (max-width : 480px) {
+    .view-img{
+        height: 70%;
+        width: 80%;
+    }
+}
